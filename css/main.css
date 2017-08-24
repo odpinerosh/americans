@@ -51,8 +51,10 @@ header .row {
 	align-items: left;
 	justify-content: center;
 	height: 550px;
-	color: #FFF;
-	background-image: url('../Images/HomeMadeGoods.jpg');
+	color: #fff;
+	background-image: url('../Images/home.jpg');
+	/*-webkit-filter: grayscale(95%);
+	-webkit-filter: brightness(10%);*/
 	background-size: cover;
 	padding-left: 50px;
 
@@ -90,6 +92,7 @@ header .row {
 .complete {
 	padding-left: 120px;
 	margin-bottom: 30px;
+	margin-top: 50px;
 }
 
 .button {
@@ -99,6 +102,28 @@ header .row {
 
 .button:active {
 	top: 2px;
+}
+
+footer {
+	display: flex;
+	justify-content: left;
+	vertical-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+footer ul {
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: left;
+	vertical-align: center;
+}
+
+footer li img {
+	width: 32px;
+	height: 32px;
 }
 
 
