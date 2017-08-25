@@ -1,6 +1,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	background-color: #F0F3F4;
 }
 
 a {
@@ -15,8 +16,17 @@ a {
 }
 
 
+header {
+	/*position: fixed;*/
+	width: 100%;
+	margin-bottom: 10px;
+	/*background-color: rgba(240,243,244,0.5);*/
+}
+
+
 header .row {
 	
+
 	display: flex;
 	align-items: left;
 	vertical-align: center;
@@ -26,6 +36,7 @@ header .row {
 
 .top h1, p {
 	
+	color: #000;
 	display: inline-flex;
 	vertical-align: center;
 	
@@ -51,18 +62,22 @@ header .row {
 	align-items: left;
 	justify-content: center;
 	height: 550px;
+	/*width: 100%;*/
 	color: #fff;
-	background-image: url('../Images/home.jpg');
-	/*-webkit-filter: grayscale(95%);
-	-webkit-filter: brightness(10%);*/
+	/*background-image: url('../Images/home.jpg');*/
+	background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../Images/home.jpg')  no-repeat center top;
 	background-size: cover;
 	padding-left: 50px;
 
 }
 
 .goods h2 {
-	font-size:60px;
+	font-size:70px;
 	margin: 0px;
+}
+
+.goods h3 {
+	font-size: 40px;
 }
 
 
