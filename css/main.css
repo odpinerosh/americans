@@ -4,8 +4,10 @@ body {
 	background-color: #F0F3F4;
 }
 
-a {
-	text-decoration: none; 
+
+
+a .botones {
+	text-decoration: none;
 	cursor: pointer;
 	border: 1px solid black;
 	border-radius: 5px;
@@ -15,44 +17,55 @@ a {
 	/*opacity: 0.8;*/
 }
 
-
-header {
-	/*position: fixed;*/
-	width: 100%;
-	margin-bottom: 10px;
-	/*background-color: rgba(240,243,244,0.5);*/
+.titul {
+	font-size: 45px;
 }
 
-
-header .row {
-	
+nav {
 
 	display: flex;
+	justify-content: flex-end;
 	align-items: left;
-	vertical-align: center;
-	padding-left: 50px;
 
 }
+
+nav p {
+	padding: 0px 20px;
+}
+
+
+
 
 .top h1, p {
-	
+
 	color: #000;
-	display: inline-flex;
-	vertical-align: center;
-	
+	/*display: inline-flex;
+	vertical-align: center;*/
+
 
 }
 
-.top h1 {
-	font-weight: 700;
+.jumbotron {
+
+	display: flex;
+	align-items: center;
+	background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../Images/home.jpg')  no-repeat center top;
+	background-size: cover;
+	height: 550px;
+	color: #fff;
 
 }
 
 
-.top p {
-	padding: 0;
-	margin-left: 30px;
+.btn {
+	margin-top: 15px;
+	position: relative;
 }
+
+.btn:active {
+	top: 2px;
+}
+
 
 
 .goods {
@@ -91,17 +104,16 @@ header .row {
 }
 
 .categ {
-	
+
 	margin: 20px 15px 20px 0px;
 
-	
+
 }
 
 
 .imagen {
-	
-	width: 700px;
-	height: 450px;
+
+	/*height: 403px;*/
 }
 
 .complete {
@@ -110,37 +122,17 @@ header .row {
 	margin-top: 50px;
 }
 
-.button {
-	position: relative;	
-
-}
-
-.button:active {
-	top: 2px;
-}
-
-footer {
+footer .col-sm-8 {
 	display: flex;
-	justify-content: left;
-	vertical-align: center;
+	align-items: flex-end;
 }
 
-footer p {
-	margin: 0;
-}
 footer ul {
-	margin: 0;
 	list-style: none;
-	display: flex;
-	justify-content: left;
-	vertical-align: center;
 }
 
 footer li img {
 	width: 32px;
 	height: 32px;
+	margin-left: 15px;
 }
-
-
-
-

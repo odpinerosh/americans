@@ -4,71 +4,80 @@
     <meta charset="utf-8">
     <title>American´s Cueros</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
 
-    <header>
-      <div class="row">
-        
-        <nav class="top">
-            <h1>American´s Cueros</h1>
-            <p>reciente</p>
-            <p>catalogo</p>
-            <p>contacto</p>
+    <header class="container">
+      <div class="row align-items-center">
+        <h1 class="col-sm-4 titul">American´s Cueros</h1>
+        <nav class="col-sm-8 text-right">
+          <p>reciente</p>
+          <p>catalogo</p>
+          <p>contacto</p>
         </nav>
+
+
       </div>
     </header>
 
-    <div class="goods">
-      <h2>Artículos en Cuero</h2>
-      <h3>Lo mejor de nuestros productos</h3>
-      <div class="button"><a>Ver todo</a></div>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <h2 class="display-2">Artículos en Cuero</h2>
+        <h3>Lo mejor de nuestros productos</h3>
+        <a class="btn btn-secondary" href="#" role="button">Ver todo</a>
+      </div>
+      </div>
     </div>
 
-    <div class="contenido">
-      <div class="kitchen categ">
-        <h4>accesorios</h4>
-        <img src="Images/accesories.jpg" class="imagen">
-      </div>
+    <div class="container">
+      <div class="row">
+        <figure class="col-sm-6">
+          <h4 class="display-4">accesorios</h4>
+          <img src="Images/accesories.jpg" class="img-fluid">
+        </figure>
 
-      <div class="woodwork categ">
-        <h4>artesanías</h4>
-        <img src="Images/lethercraft.jpg" class="imagen">
+        <figure class="col-sm-6">
+          <h4 class="display-4">artesanías</h4>
+          <img src="Images/lethercraft.jpg" class="img-fluid">
+        </figure>
       </div>
-
-      <div class="gifts categ">
-        <h4>regalos</h4>
-        <img src="Images/gifts_3.jpg" class="imagen">
-      </div>
-
-      <div class="antiques categ">
-        <h4>clásicos</h4>
-        <img src="Images/antiques.jpg" class="imagen">
-      </div>
-
     </div>
 
-    <div class="button complete">
-      <a>Ver el catálogo completo</a>
-      
+    <div class="container">
+      <div class="row">
+        <figure class="col-sm-6">
+          <h4 class="display-4">regalos</h4>
+          <img src="Images/flowers.jpg" class="img-fluid imagen">
+        </figure>
+
+        <figure class="col-sm-6">
+          <h4 class="display-4">clásicos</h4>
+          <img src="Images/clasicos.jpg" class="img-fluid imagen">
+        </figure>
+      </div>
     </div>
 
-    <footer class="complete">
+    <footer class="container">
+      <div class="row">
 
-        <p>&copy 2017 American´s Cueros</p>
-        <ul>
-          <li><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></li>
-          <li><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
-        </li>
-        <li class="col-sm-1">
-          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
-        </li>
+        <p class="col-sm-4">&copy 2017 American´s Cueros</p>
+        <ul class="col-sm-8">
+          <li>
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+          </li>
+          <li>
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+          </li>
         </ul>
 
-      </footer>
+    </div>
+
+    </footer>
 
 
 
