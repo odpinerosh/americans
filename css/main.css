@@ -6,21 +6,20 @@ body {
 
 
 
-a .botones {
+a.enlace {
 	text-decoration: none;
 	cursor: pointer;
-	border: 1px solid black;
-	border-radius: 5px;
-	padding: 8px;
-	background-color: lightgrey;
 	color: #000;
 	/*opacity: 0.8;*/
 }
 
 .titul {
-	font-size: 45px;
+	font-size: 40px;
 }
 
+.cab {
+	height: 100px;
+}
 nav {
 
 	display: flex;
