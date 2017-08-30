@@ -1,7 +1,31 @@
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	background-color: #F0F3F4;
+	/*background-color: #F0F3F4;*/
 }
 
 
@@ -14,10 +38,11 @@ a.enlace {
 }
 
 .titul {
-	font-size: 40px;
+
 }
 
-.cab {
+div.cab {
+	background-color: #f2f2f2;
 	height: 100px;
 }
 nav {
@@ -67,16 +92,16 @@ nav p {
 
 
 
-.goods {
+/*.goods {
 
 	display: flex;
 	flex-direction: column;
 	align-items: left;
 	justify-content: center;
 	height: 550px;
-	/*width: 100%;*/
+	width: 100%;
 	color: #fff;
-	/*background-image: url('../Images/home.jpg');*/
+	background-image: url('../Images/home.jpg');
 	background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../Images/home.jpg')  no-repeat center top;
 	background-size: cover;
 	padding-left: 50px;
@@ -112,23 +137,28 @@ nav p {
 
 .imagen {
 
-	/*height: 403px;*/
+	height: 403px;
 }
 
 .complete {
 	padding-left: 120px;
 	margin-bottom: 30px;
 	margin-top: 50px;
+} */
+
+div.abc {
+	background-color: #f2f2f2;
+	height: 100px;
 }
 
-footer .col-sm-8 {
-	display: flex;
-	align-items: flex-end;
-}
 
 footer ul {
+	display: flex;
+	align-items: flex-end;
 	list-style: none;
+	margin: 0px;
 }
+
 
 footer li img {
 	width: 32px;
