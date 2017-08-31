@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>American´s Cueros</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script type="text/javascript" src="js/code.js">
+
+    </script>
+
+  </head>
+  <body>
+
+    <header class="container-fluid">
+      <div class="row align-items-center justify-content-center cab">
+        <h1 class="col-sm-auto titul"><a href="index.html" class="enlace">American´s Cueros</a></h1>
+        <div class="col-sm-1"></div>
+        <nav class="col-sm-auto text-right">
+          <p class="lead"><a href = "reciente.html" class="enlace">reciente</a></p>
+          <p class="lead">ofertas</p>
+          <p class="lead"><a href = "tiendas.html" class="enlace">tiendas</a></p>
+          <p class="lead">contacto</p>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container contacto">
+      <div class="row">
+        <h4 class="col-sm-auto display-4">Formulario de Contacto</h4>
+        <p class="col-sm-auto lead">
+          Por favor, diligencia tus datos en este formulario. Pronto nos pondremos en contacto contigo.
+        </p>
+      </div>
+    </div>
+
+    <form class="container contacto" validate>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom01">Nombres</label>
+          <input type="text" class="form-control is-valid" id="validationCustom01" placeholder="Tus nombres" required>
+          <div class="invalid-feedback">
+            Debes escribir tu nombre.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom02">Apellidos</label>
+          <input type="text" class="form-control is-valid" id="validationCustom02" placeholder="Tus apellidos" required>
+          <div class="invalid-feedback">
+            Debes escribir tu apellido.
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom03">Tu correo electrónico</label>
+          <input type="email" class="form-control is-valid" id="validationCustom03" placeholder="Correo electrónico" required>
+          <div class="invalid-feedback">
+            Debes diligenciar este campo.
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom04">Teléfono Móvil</label>
+          <input type="text" class="form-control is-valid" id="validationCustom04" placeholder="Móvil" required>
+          <div class="invalid-feedback">
+            Debes diligenciar este campo.
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom05">Teléfono Fijo</label>
+          <input type="text" class="form-control" id="validationCustom05" placeholder="Fijo">
+          <div class="invalid-feedback">
+            No es obligatorio.
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom06">Ciudad</label>
+          <select class="form-control is-valid" id="validationCustom06" required>
+            <option selected></option>
+            <option value="Bogotá">Bogotá</option>
+            <option value="Cali">Cali</option>
+            <option value="Duitama">Duitama</option>
+            <option value="Medellín">Medellín</option>
+          </select>
+          <div class="invalid-feedback">
+            Por favor, diligencia este campo.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Enviar</button>
+    </form>
+
+    <footer class="container-fluid">
+      <div class="row align-items-center justify-content-center abc">
+        <div class="col-sm-auto">
+          &reg 2017 American´s Cueros
+        </div>
+
+        <div class="col-sm-auto">
+          <ul>
+            <li>
+              <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+            </li>
+            <li>
+              <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </footer>
+  </body>
+</html>
