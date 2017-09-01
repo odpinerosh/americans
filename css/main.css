@@ -98,6 +98,15 @@ nav p {
 
 }
 
+.jumbocontacto {
+  display: flex;
+	align-items: center;
+	background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../Images/Contacto.jpg')  no-repeat center top;
+	background-size: cover;
+	height: 120px;
+	color: #fff;
+}
+
 
 .btn {
 	margin-top: 15px;
@@ -108,9 +117,9 @@ nav p {
 	top: 2px;
 }
 
-.contacto {
+.pie {
   margin-top: 20px;
-  margin-bottom: 20px;
+
 }
 
 

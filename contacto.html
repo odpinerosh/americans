@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <title>American´s Cueros</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -20,28 +20,42 @@
   <body>
 
     <header class="container-fluid">
-      <div class="row align-items-center justify-content-center cab">
-        <h1 class="col-sm-auto titul"><a href="index.html" class="enlace">American´s Cueros</a></h1>
-        <div class="col-sm-1"></div>
-        <nav class="col-sm-auto text-right">
-          <p class="lead"><a href = "reciente.html" class="enlace">reciente</a></p>
-          <p class="lead">ofertas</p>
-          <p class="lead"><a href = "tiendas.html" class="enlace">tiendas</a></p>
-          <p class="lead">contacto</p>
-        </nav>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-12 text-center">
+          <a href="index.html" class="enlace">
+            <h1>American´s Cueros</h1>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <nav class="nav justify-content-center">
+            <a href = "reciente.html" class="nav-link enlace">reciente</a>
+            <a href = "tiendas.html" class="nav-link enlace">tiendas</a>
+            <a href = "#" class="nav-link enlace">ofertas</a>
+            <a href = "contacto.html" class="nav-link enlace">contacto</a>
+          </nav>
+        </div>
       </div>
     </header>
 
+    <div class="jumbotron jumbotron-fluid jumbocontacto">
+      <div class="container text-center">
+        <h4 class="display-4">Contacto</h4>
+      </div>
+      </div>
+    </div>
+
     <div class="container contacto">
       <div class="row">
-        <h4 class="col-sm-auto display-4">Formulario de Contacto</h4>
+        <h4 class="col-sm-auto display-4"></h4>
         <p class="col-sm-auto lead">
           Por favor, diligencia tus datos en este formulario. Pronto nos pondremos en contacto contigo.
         </p>
       </div>
     </div>
 
-    <form class="container contacto" validate>
+    <form class="container contactofrm" validate>
       <div class="row">
         <div class="col-md-6 mb-3">
           <label for="validationCustom01">Nombres</label>
@@ -62,24 +76,24 @@
       <div class="row">
 
         <div class="col-md-3 mb-3">
-          <label for="validationCustom03">Tu correo electrónico</label>
-          <input type="email" class="form-control is-valid" id="validationCustom03" placeholder="Correo electrónico" required>
+          <label for="validationCustom03">Correo electrónico</label>
+          <input type="email" class="form-control is-valid" id="validationCustom03" placeholder="Tu correo electrónico" required>
           <div class="invalid-feedback">
             Debes diligenciar este campo.
           </div>
         </div>
 
         <div class="col-md-3 mb-3">
-          <label for="validationCustom04">Teléfono Móvil</label>
-          <input type="text" class="form-control is-valid" id="validationCustom04" placeholder="Móvil" required>
+          <label for="validationCustom04">Teléfono móvil</label>
+          <input type="text" class="form-control is-valid" id="validationCustom04" placeholder="Tu número móvil" required>
           <div class="invalid-feedback">
             Debes diligenciar este campo.
           </div>
         </div>
 
         <div class="col-md-3 mb-3">
-          <label for="validationCustom05">Teléfono Fijo</label>
-          <input type="text" class="form-control" id="validationCustom05" placeholder="Fijo">
+          <label for="validationCustom05">Teléfono fijo</label>
+          <input type="text" class="form-control" id="validationCustom05" placeholder="Tu número fijo">
           <div class="invalid-feedback">
             No es obligatorio.
           </div>
@@ -98,11 +112,41 @@
             Por favor, diligencia este campo.
           </div>
         </div>
-      </div>
-      <button class="btn btn-primary" type="submit">Enviar</button>
+
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom07">Comentarios</label>
+          <textarea class="form-control is-valid" id="validationCustom07" placeholder="Tus comentarios" rows="3" required>
+          </textarea>
+          <div class="invalid-feedback">
+            Por favor, diligencia este campo.
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" required>
+                <p>Acepto los términos y condiciones de <strong>www.americanscueros.com</strong>.
+                  Autorizo de manera expresa y voluntaria a través de éste a <strong>American's Cueros</strong>
+                  para recolectar, almacenar, usar, circular o suprimir la información;
+                  procesar, tratar, actualizar y disponer de los datos, así como para compartir
+                  dicha información de forma parcial o total a sus aliados comerciales estratégicos
+                  con fines administrativos, comerciales y de mercadeo.</p>
+
+                <p><strong>American's Cueros</strong> protege los datos suministrados por sus clientes en virtud
+                  de lo dispuesto en la normatividad regulatoria del derecho al HABEAS DATA.
+                  Esta información será almacenada en nuestra base de datos durante 50 años.
+                  Al diligenciar el presente formulario acepto recibir mails con información de la compañía y mensajes de texto.</p>
+            </label>
+        </div>
+
+
+        <div class="col-md-3 mb-3">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        <div>
     </form>
 
-    <footer class="container-fluid">
+    <footer class="container-fluid pie">
       <div class="row align-items-center justify-content-center abc">
         <div class="col-sm-auto">
           &reg 2017 American´s Cueros
