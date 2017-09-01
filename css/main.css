@@ -88,23 +88,30 @@ nav p {
 }
 
 .jumbotron {
+display: flex;
+align-items: center;
+background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../Images/home.jpg')  no-repeat center top;
+background-size: cover;
+color: #fff;
+}
 
-	display: flex;
-	align-items: center;
-	background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../Images/home.jpg')  no-repeat center top;
-	background-size: cover;
-	height: 350px;
-	color: #fff;
+
+.jumboindex {
 
 }
 
+
+
+.jumbotiendas {
+
+}
+
+.jumboreciente {
+	
+}
+
 .jumbocontacto {
-  display: flex;
-	align-items: center;
 	background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../Images/Contacto.jpg')  no-repeat center top;
-	background-size: cover;
-	height: 350px;
-	color: #fff;
 }
 
 
